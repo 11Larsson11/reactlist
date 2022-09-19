@@ -19,7 +19,9 @@ const ListItem = (props) => {
         <div className="list-item__review">
           <div>{props.review}</div>
         </div>
+        
       </div>
+      <button>Add</button>
     </Card>
   );
 };
