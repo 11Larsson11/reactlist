@@ -17,11 +17,9 @@ const ListItem = (props) => {
         <div className="list-item__description"></div>
         <h4>{props.description}</h4>
         <div className="list-item__review">
-          <div>{props.review}</div>
+          <div>{props.review}/10</div>
         </div>
-        
       </div>
-      <button>Add</button>
     </Card>
   );
 };

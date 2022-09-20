@@ -38,9 +38,11 @@ const App = () => {
     },
   ];
 
+  const addReviewHandler = (review) => {};
+
   return (
     <div className="App">
-      <NewReview />
+      <NewReview onAddReview={addReviewHandler} />
       <Reviews items={bookReviews} />
     </div>
   );
