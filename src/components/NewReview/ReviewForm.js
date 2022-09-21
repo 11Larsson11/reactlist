@@ -98,6 +98,7 @@ const ReviewForm = (props) => {
         </div>
       </div>
       <div className="new-review__actions">
+        <button type="button" onClick={props.onCancel} >Cancel</button>
         <button type="submit">Add Review</button>
       </div>
     </form>
